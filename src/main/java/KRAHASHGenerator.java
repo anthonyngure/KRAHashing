@@ -73,7 +73,7 @@ public class KRAHASHGenerator {
             String algorithm = "RSA";  // or RSA, DH, etc.
             String DeviceType = "B";
             String SerialNumber = "KRAMW422202004004479";
-            String NumberOFLastInvoiceSent = "3";
+            String NumberOFLastInvoiceSent = "4220044790000000003";
             String PinOfSeller = "P051448131C";
 
             
