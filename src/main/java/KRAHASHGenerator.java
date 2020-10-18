@@ -81,7 +81,7 @@ public class KRAHASHGenerator {
             Date date = new Date();
             String TransactionDate = dateFormat.format(date);
             
-            String signature = DeviceType+""+TransactionDate+""+PinOfSeller+""+SerialNumber;
+            String signature = DeviceType+""+TransactionDate+""+NumberOFLastInvoiceSent+""+PinOfSeller+""+SerialNumber;
             
             hash_string = toHexString(getSHA(signature));
             System.out.println(hash_string);
